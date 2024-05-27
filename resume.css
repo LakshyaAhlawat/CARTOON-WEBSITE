@@ -1,0 +1,66 @@
+.resume {
+  padding-left: 550px;
+  padding-bottom: 100px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: aliceblue;
+  font-size: 100px;
+}
+.subp {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: antiquewhite;
+  font-size: 30px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group {
+  display: flex;
+  padding-top: 50px;
+}
+.group {
+  display: flex;
+  justify-content: space-between; /* Distributes the space between the cards */
+}
+
+.card {
+  width: 35rem;
+  margin-right: 20px;
+  margin-left: 80px; /* Adjust the margin to set the distance between the cards */
+}
+.card1 {
+    width: 35rem;
+    margin-right: 20px;
+    margin-right: 80px;
+    border: 2px solid white; /* Adjust the margin to set the distance between the cards */
+  }
+
+/* To prevent the last card from having a margin */
+.card:last-child {
+  margin-right: 0;
+}
+.card-title {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 40px;
+  color: goldenrod !important;
+}
+.card-text{
+    color: antiquewhite;
+}
+.ct3{
+    color: #999999;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ct4{
+    color: #999999;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 24px 0px 16px;
+}

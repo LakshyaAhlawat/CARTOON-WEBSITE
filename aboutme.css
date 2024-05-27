@@ -1,0 +1,95 @@
+.imgn {
+  margin: 150px;
+  padding: 150px;
+}
+.about-me {
+  display: flex;
+}
+.about-me-right {
+  padding-left: 250px;
+  padding-bottom: 300px;
+}
+.ab1 {
+  color: antiquewhite;
+  padding-top: 300px;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 70px;
+}
+.ab2 {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+  padding-top: 50px;
+}
+.ab3{
+    padding-top: 100px;
+}
+.img-thumbnail {
+  width: 400px;
+  height: 400px;
+  align-self: center;
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+.about-me-left {
+  margin-top: 300px;
+}
+.about-me-left img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.about-me-left img:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+}
+.about-me-left {
+  position: relative;
+  display: inline-block;
+}
+
+.about-me-left img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.about-me-left img:hover {
+  transform: scale(1.1);
+}
+.t1{
+    background-color: black !important;
+    color: antiquewhite;
+}
+
+.dialog-box {
+  position: absolute;
+  top: 0;
+  height: 150px;
+  width: 150px;
+  font-family: "Pacifico", cursive;
+  font-weight: 900;
+  font-style: normal;
+  left: calc(100% + 10px); /* Adjust the distance from the image */
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: separate; /* Separate borders for cells */
+    border-spacing: 100px; /* Increase spacing between cells */
+  }
+
+  .custom-table th,
+  .custom-table td {
+    padding: 100px;
+    /*border: 5px solid #000;*/ /* Add border to cells */
+  }
+
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

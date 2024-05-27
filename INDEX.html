@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Jacquard+12&family=Jersey+10&family=Pacifico&family=Poetsen+One&family=Protest+Revolution&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nobita-The Legend</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="aboutme.css" />
+    <link rel="stylesheet" href="resume.css" />
+    <link rel="stylesheet" href="services.css" />
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .nav-item:hover .nav-link {
+        color: goldenrod !important; /* Change to desired hover color */
+      }
+      .nav-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background-color: goldenrod; /* Change to desired hover color */
+        transition: width 0.3s ease; /* Adjust transition duration and timing function */
+      }
+
+      .nav-link:hover::after {
+        width: 100%; /* Increase width to 100% on hover */
+      }
+      .nav-item .nav-link {
+        position: relative;
+        color: #ffffff; /* Default text color */
+      }
+
+      .nav-item .nav-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background-color: goldenrod; /* Default underline color */
+        transition: width 0.3s ease; /* Adjust transition duration and timing function */
+      }
+
+      .nav-item:hover .nav-link::after {
+        width: 100%; /* Increase width to 100% on hover */
+      }
+
+      .nav-item.active .nav-link::after {
+        width: 100%; /* Underline for active link */
+      }
+
+      .nav-item.active .nav-link {
+        color: goldenrod !important; /* Change to desired hover color */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="overlay" class="overlay">
+      <div
+        style="
+          font-size: 24px;
+          color: #fff;
+          text-align: center;
+          margin-top: 20vh;
+        "
+      >
+        Loading...
+      </div>
+    </div>
+
+    
+
+    <nav
+      class="navbar navbar-expand-lg fixed-top"
+      style="background-color: black"
+    >
+      <div class="container-fluid">
+        <nav class="navbar">
+          <a class="navbar-brand" href="#" 9hnn&ust>Nobita-The Web Developer</a>
+          <img
+            src="https://photosnow.org/wp-content/uploads/2024/04/doraemon-nobita-photo_14.jpg"
+            class="navbar-logo"
+          />
+        </nav>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light fs-4"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-light fs-4" href="#About.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light fs-4"
+                aria-current="page"
+                href="#"
+                >Resume</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light fs-4"
+                aria-current="page"
+                href="#"
+                >Services</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light fs-4"
+                aria-current="page"
+                href="#"
+                >Skills</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light fs-4"
+                aria-current="page"
+                href="#"
+                >Projects</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-body">
+      <div class="left-main-body">
+        <div class="sub-1">Hello!</div>
+        <div class="sub-2">I'm Nobita Nobi!</div>
+        <div class="sub-3">A Freelance Web Designer</div>
+        <div class="sub4 d-flex mt-5">
+          <div class="sub-4-left">
+            <button type="button" class="btn btn-warning">Hire Me!</button>
+          </div>
+          <div class="sub-4-right ms-3">
+            <button type="button" class="btn btn-light">My Works</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-main-body">
+        <!--<img src="https://pngfre.com/wp-content/uploads/nobita-nobi-19-243x300.png" alt="">-->
+        <div style="position: relative">
+          <img
+            src="https://pngfre.com/wp-content/uploads/nobita-nobi-19-243x300.png"
+            alt="Your Image"
+            class="img-fluid"
+            onclick="showMessage()"
+          />
+          <div
+            id="popup"
+            style="
+              display: none;
+              position: absolute;
+              top: 0;
+              left: 100px;
+              background-color: white;
+              border: 5px solid goldenrod;
+              padding: 10px;
+            "
+          >
+            Hola Everyone! Nobita Here!!
+          </div>
+        </div>
+
+        <script>
+          function showMessage() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "block";
+          }
+        </script>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+
+    <!-- creating the about me page....-->
+    <div class="page-2">
+      <div class="about-me">
+        <div class="about-me-left">
+          <img
+            src="https://i.pinimg.com/originals/bf/eb/a8/bfeba832a872fef7b0426e3c314041d9.png"
+            class="img-thumbnail"
+            alt="..."
+            onclick="toggleDialog()"
+          />
+          <div class="dialog-box" id="dialogBox">
+            Hello Eveyone!! Pls Feel Free to read about me!
+          </div>
+        </div>
+        <script>
+          function toggleDialog() {
+            var dialogBox = document.getElementById("dialogBox");
+            if (dialogBox.style.display === "block") {
+              dialogBox.style.display = "none";
+            } else {
+              dialogBox.style.display = "block";
+            }
+          }
+        </script>
+        <div class="about-me-right">
+          <div class="ab1">About Me</div>
+          <div class="ab2">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </div>
+          <div class="ab3">
+            <table class="t1">
+              <tbody>
+                <tr>
+                  <th
+                    scope="row"
+                    style="width: 30%"
+                    class="align-middle text-center"
+                  >
+                    Name
+                  </th>
+                  <!-- Adjust width as needed -->
+                  <td style="width: 70%" class="align-middle text-center">
+                    Nobita Nobi
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    scope="row"
+                    style="width: 30%"
+                    class="align-middle text-center"
+                  >
+                    Date Of Birth
+                  </th>
+                  <td style="width: 70%" class="align-middle text-center">
+                    22 December, 2004
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    scope="row"
+                    style="width: 30%"
+                    class="align-middle text-center"
+                  >
+                    Address
+                  </th>
+                  <td
+                    colspan="2"
+                    style="width: 70%"
+                    class="align-middle text-center"
+                  >
+                    Tokyo, Japan
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    scope="row"
+                    style="width: 30%"
+                    class="align-middle text-center"
+                  >
+                    Zip Code
+                  </th>
+                  <td
+                    colspan="2"
+                    style="width: 70%"
+                    class="align-middle text-center"
+                  >
+                    1000
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    scope="row"
+                    style="width: 30%"
+                    class="align-middle text-center"
+                  >
+                    Email
+                  </th>
+                  <td
+                    colspan="2"
+                    style="width: 70%"
+                    class="align-middle text-center"
+                  >
+                    nobitafailure@gmail.com
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    scope="row"
+                    style="width: 30%"
+                    class="align-middle text-center"
+                  >
+                    Phone
+                  </th>
+                  <td
+                    colspan="2"
+                    style="width: 70%"
+                    class="align-middle text-center"
+                  >
+                    +1-2234-5678-9-0
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- creating the page 3.....-->
+    <div class="page-3">
+      <div class="resume">Resume</div>
+      <div class="subp">
+        A small river named Duden flows by their place and supplies it with the
+        necessary regelialia. It is a paradisematic country, in which roasted
+        parts of sentences fly into your mouth.
+      </div>
+
+      <!--inserting the cards...-->
+      <div class="group">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-title">2014-2015</div>
+            <h2 class="card-text">Master Degree of Design</h2>
+            <div class="ct3">CAMBRIDGE UNIVERSITY</div>
+            <div class="ct4">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card-body">
+            <div class="card-title">2014-2015</div>
+            <h2 class="card-text">Art & Creative Director</h2>
+            <div class="ct3">CAMBRIDGE UNIVERSITY</div>
+            <div class="ct4">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="card" style="height: 25rem" style="width: 50rem">
+          <div class="card-body">
+            <div class="card-title">2014-2015</div>
+            <h2 class="card-text">Bachelor's Degree of C.A</h2>
+            <div class="ct3">CAMBRIDGE UNIVERSITY</div>
+            <div class="ct4">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </div>
+          </div>
+        </div>
+        <div class="card1" style="height: 25rem" style="width: 50rem">
+          <div class="card-body">
+            <div class="card-title">2014-2015</div>
+            <h2 class="card-text">Wordpress Developer</h2>
+            <div class="ct3">CAMBRIDGE UNIVERSITY</div>
+            <div class="ct4">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="card" style="height: 25rem" style="width: 50rem">
+          <div class="card-body">
+            <div class="card-title">2014-2015</div>
+            <h2 class="card-text">Diploma in Computer</h2>
+            <div class="ct3">CAMBRIDGE UNIVERSITY</div>
+            <div class="ct4">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </div>
+          </div>
+        </div>
+        <div class="card1" style="height: 25rem" style="width: 50rem">
+          <div class="card-body">
+            <div class="card-title">2017-2018</div>
+            <h2 class="card-text">UI/UX Designer</h2>
+            <div class="ct3">CAMBRIDGE UNIVERSITY</div>
+            <div class="ct4">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <button type="button" class="btn btn-outline-warning">My CV</button>
+      </div>
+    </div>
+
+    <!--services page 4-->
+    <div class="page-4">
+      <div class="services">Services</div>
+      <div class="content">
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia
+      </div>
+
+      <!-- creating the stretched link cards...-->
+      <div class="stretched">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1715644800&semt=ais_user"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h5 class="card-title">WEB DESIGN</h5>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://t4.ftcdn.net/jpg/04/93/51/23/360_F_493512395_dZ91acBhSy6ZZ7siwJifgwPGSArU1w1X.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">PHOTOGRAPHY</h5>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://img.freepik.com/premium-vector/web-developer-logo-template_674356-207.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">WEB DEVELOPER</h5>
+            <a href="#" class="stretched-link color-dark"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="stretched">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxF5N6EeYivTmW-nkiuyGZNHXN_4vPFLZWlKTpEYJofQ&s"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h5 class="card-title">APP DEVELOPMENT</h5>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://cdn.acodez.in/wp-content/uploads/2017/11/How-to-Choose-a-Logo-for-Your-Business.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">BRANDING</h5>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.credly.com/images/5c7a97d1-d64f-4ecf-af99-d9069eb3cb9d/image.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">PRODUCT STRATEGY</h5>
+            <a href="#" class="stretched-link color-dark"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--page5 creation begins here....-->
+    <div class="page-5">
+      <div class="my-skills">My Skills</div>
+      <div class="cont">
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia
+      </div>
+
+      <div class="progressbar">
+        <div class="subpro">
+          <div class="con">PHOTOSHOP</div>
+          <div class="percent">90%</div>
+        </div>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Warning striped example"
+          aria-valuenow="90"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped bg-warning"
+            style="width: 90%"
+          ></div>
+        </div>
+
+        <!--second progress bar...-->
+        <div class="subpro">
+          <div class="con">jQuery</div>
+          <div class="percent">85%</div>
+        </div>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Warning striped example"
+          aria-valuenow="90"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped bg-warning"
+            style="width: 90%"
+          ></div>
+        </div>
+
+        <!--third progress bar...-->
+        <div class="subpro">
+          <div class="con">HTML5</div>
+          <div class="percent">95%</div>
+        </div>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Warning striped example"
+          aria-valuenow="90"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped bg-warning"
+            style="width: 90%"
+          ></div>
+        </div>
+
+        <!--fourth progress bar...-->
+        <div class="subpro">
+          <div class="con">CSS3</div>
+          <div class="percent">90%</div>
+        </div>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Warning striped example"
+          aria-valuenow="90"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped bg-warning"
+            style="width: 90%"
+          ></div>
+        </div>
+
+        <!--fifth progress bar...-->
+        <div class="subpro">
+          <div class="con">WordPress</div>
+          <div class="percent">70%</div>
+        </div>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Warning striped example"
+          aria-valuenow="90"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped bg-warning"
+            style="width: 90%"
+          ></div>
+        </div>
+
+        <!--sixth progress bar...-->
+        <div class="subpro">
+          <div class="con">SEO</div>
+          <div class="percent">80%</div>
+        </div>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Warning striped example"
+          aria-valuenow="90"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped bg-warning"
+            style="width: 90%"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <!--sixth page....-->
+    <div class="projects">
+      <div class="pro1">Our Projects</div>
+      <div class="co">
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia
+      </div>
+
+      <div class="ctnr">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://t3.ftcdn.net/jpg/03/54/17/86/360_F_354178616_uSdqA6i1A1vkkskFPKOoxQOED0ZMIcn3.jpg"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
+              <div class="card-description">PROJECT-1</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://img.freepik.com/free-vector/cartoon-web-design-landing-page_52683-70880.jpg"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
+              <div class="card-description">PROJECT-2</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--second level of project works...-->
+
+      <div class="ctnr">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://www.hubsol.com/public/upload/post/91261_web-development-lahore.jpg"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
+              <div class="card-description">PROJECT-3</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYnn6XbT2NxrzoFOnjb0Qr7mcxW0KElCemSvvSR5x6Cg&s"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
+              <div class="card-description">PROJECT-4</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--third level of project works...-->
+
+      <div class="ctnr">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUihL73qJuwCM8gtzzhOw5FD9KJvLNToUCbThU2NXiqw&s"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
+              <div class="card-description">PROJECT-5</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://htmlburger.com/blog/wp-content/uploads/2023/04/modern-website-design-examples.jpg"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
+              <div class="card-description">PROJECT-6</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bootstrap JS (optional) -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+
+    <!-- MAKING THE CONTACT PAGE....-->
+    <div class="contact-me">
+      <div class="cme">Contact Me</div>
+      <div class="cm">
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia
+      </div>
+
+      <!--making the form...-->
+
+      <div class="container">
+        <h2 class="h22"> Form</h2>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name...">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" placeholder="Your address...">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email...">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number...">
+          </div>
+          <button type="button" class="btn btn-warning">Submit</button>
+        </form>
+      </div>
+
+      <!-- creating the last page....-->
+
+    <a href="project.html">Click Here to Visit my recent project!</a>
+
+     
+  </body>
+</html>
